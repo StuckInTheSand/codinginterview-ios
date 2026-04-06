@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:ios-ecommerce}",
+            "name": "Debug EcommerceApp",
+            "program": "${workspaceFolder:ios-ecommerce}/.build/debug/EcommerceApp",
+            "preLaunchTask": "swift: Build Debug EcommerceApp"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:ios-ecommerce}",
+            "name": "Release EcommerceApp",
+            "program": "${workspaceFolder:ios-ecommerce}/.build/release/EcommerceApp",
+            "preLaunchTask": "swift: Build Release EcommerceApp"
+        }
+    ]
+}
